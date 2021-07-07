@@ -1,3 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap');
+
+:root{
+  --primary-white: #fff;
+}
+.navbar-brand{
+  font-family: "tokyo " sans-serif;
+  color:#5d97f0 !important;
+  font-size:30px  !important;
+  font-style: italic;
+
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +50,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.logo{
+  width: 50px;
+}
+.navbar{
+  height: 15%;
+  color: #61dafb;
+}
+.navbar-nav > li > a{
+  color: var(--primary-white) !important;
+  font-size: 20px !important;
+  margin-left: 40px !important;
+  border-radius: 20px !important;
+  padding: 10px 10px 10px 10px !important;
+
+  
+  
+  
+}
+.nav-item{
+  width: 150px !important;
+  text-align: center;
+  
+}
+.navbar-nav > li > a:hover{
+  background-color:#a5b5d4;
+}
+.navbar-nav > li > a:focus{
+  border-bottom:3px solid #d3f31c ;
+}
+.header-wrapper{
+  position: relative;
+  background: url(nhung-background-sieu-chat-tai-da-nang-14-795x385.jpg) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 95vh;
+  place-items: center;
+
+}
+.typed-text{
+  font-size:20px;
+  color:#5d97f0;
+ 
+ 
+}
+.main-info{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:rgb(50, 37, 228);
+  top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+position: absolute;
+  
+}
+.k{
+  border-radius: 20px;
+  border: 3px solid #61dafb;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  
+
 }

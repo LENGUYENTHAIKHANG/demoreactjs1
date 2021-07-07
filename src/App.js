@@ -1,12 +1,17 @@
 
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
+import Narbar from './components/Narbar';
+import Header from './components/Header';
+
 
 function App() {
   return (
-    <div >
-     <h1>asdasdasd</h1>
-    </div>
+    <>
+   
+    <Narbar/>
+    <Header/>
+    </>
   );
 }
 
